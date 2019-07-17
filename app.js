@@ -41,8 +41,5 @@ app.get('*', function (req, res) {
   res.sendFile(path.join(__dirname, '/public/index.html'));
 });
 
-const port = process.env.PORT;
-
-app.listen(port);
 
 module.exports = app;
