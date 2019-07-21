@@ -11,7 +11,6 @@ var ordersRouter = require('./routes/orders.router');
 var mailsRouter = require('./routes/mails.router');
 
 const mongoConnect = require('./mongo');
-const mongoose = require('mongoose');
 mongoConnect();
 //mongoose.connect('mongodb://localhost/icon-factory', { useNewUrlParser: true, useFindAndModify: false });
 
